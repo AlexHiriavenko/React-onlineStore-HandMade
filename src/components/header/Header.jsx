@@ -3,6 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import s from "./header.module.scss";
 import Star from "../Star/Star.jsx";
 import CartIcon from "../CartIcon/CartIcon.jsx";
+import { homeIcon } from "./homeIcon";
 
 function Header() {
     const favorit = useSelector((state) => state.favoritCardsReducer.favoritCards);
@@ -29,6 +30,9 @@ function Header() {
                 </ul>
             </nav>
             <div className={s.wrapper}>
+                <Link to="/">
+                    <div className={s.homeIcon}>{homeIcon}</div>
+                </Link>
                 <div className={s.star}>
                     <Link to="/favorit">
                         <Star fill={"gold"} />

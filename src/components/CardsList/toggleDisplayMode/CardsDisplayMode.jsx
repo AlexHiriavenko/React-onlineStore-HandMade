@@ -24,7 +24,7 @@ const CardsDisplayMode = () => {
 
     return (
         <div className={s.cardsView}>
-            <label htmlFor="display-mode" style={{ marginRight: "10px", color: "white" }}>
+            <label htmlFor="display-mode" className={s.label}>
                 Режим отображения:
             </label>
             <select

@@ -58,9 +58,7 @@ function FormOrder() {
     return (
         <>
             <form className={s.orderForm}>
-                <label htmlFor="" className={s.orderFormLabel + " " + s.orderFormTitle}>
-                    Order Form:
-                </label>
+                <h3 className={s.orderFormLabel + " " + s.orderFormTitle}>Order Form:</h3>
                 <input
                     className={s.orderFormInput}
                     type="text"
@@ -69,6 +67,7 @@ function FormOrder() {
                     value={formik.values.name}
                     onBlur={formik.handleBlur}
                     onChange={formik.handleChange}
+                    autoComplete="off"
                 />
                 {formik.errors.name && formik.touched.name && (
                     <label htmlFor="name" className={s.formError}>
@@ -131,15 +130,15 @@ function FormOrder() {
                         {formik.errors.phoneNumber}
                     </label>
                 )}
-                <label className={s.orderFormLabel}>
+                <p className={s.orderFormLabel}>
                     You have {cart.reduce((acc, val) => acc + val.quantity, 0)} items in your cart
-                </label>
-                <label className={s.orderFormLabel}>
+                </p>
+                <p className={s.orderFormLabel}>
                     Total Order Value:{" "}
                     <span className="fs-5">
                         {cart.reduce((total, item) => total + +item.sum, 0)} тугриков
                     </span>
-                </label>
+                </p>
                 <div className={s.btnGrpoup}>
                     <Button type="submit" text="Confirm" onClick={formik.handleSubmit} />
                     <Button text="Reset form" onClick={handleReset} />
