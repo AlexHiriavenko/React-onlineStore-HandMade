@@ -1,0 +1,47 @@
+/* @import-normalize; */
+html {
+  min-height: 100%;
+  max-width: 100vw;
+}
+
+body {
+  min-height: 100%;
+  max-width: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Georgia', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: bisque;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+li {
+  list-style-type: none;
+}
+
+#root {
+  min-height: 100vh;
+  max-width: 100%;
+  background-image: url("../public/img/krasnoe-derevo-fon.jpg");
+  padding-bottom: 24px;
+}
+
+header {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a.active {
+    color: #d04d0b;
+  }
+}
+
+.h2Title {
+  color: white;
+}

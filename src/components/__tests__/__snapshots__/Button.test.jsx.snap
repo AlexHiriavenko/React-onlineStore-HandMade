@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component снимок компонента Button 1`] = `
+<button
+  class="btn"
+  data-assignment="add-to-cart"
+  id="addToCart"
+  style="background-color: blue; color: yellow;"
+  type="button"
+>
+  Click me
+  <span>
+    Child element
+  </span>
+</button>
+`;

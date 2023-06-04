@@ -1,0 +1,72 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+     @media (max-width: 460px) {
+        justify-content: center;
+    }
+}
+
+.nav {
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    font-family: 'Old Standard TT', serif;
+    justify-content: center;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 20px;
+    margin-right: 3%;
+        @media (max-width: 460px) {
+    display: none;
+        }
+}
+
+.cart {
+    padding: 3px;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.star {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.logo {
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.logo2 {
+    display: block;
+    padding-left: 70%;
+}

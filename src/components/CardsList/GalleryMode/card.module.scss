@@ -1,0 +1,47 @@
+.card {
+    background-color: bisque;
+    margin-bottom: 14px;
+    padding: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+
+.text {
+    max-width: 280px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-family: 'Old Standard TT', serif;
+    padding: 0;
+    margin: 0;
+}
+
+.text:first-letter {
+  text-transform: capitalize;
+}
+
+.prop {
+    font-family: 'IM Fell DW Pica', serif;
+    margin-right: 5px;
+}
+
+.wrapStar {
+    display: inline-block;
+    background-color: brown;
+    padding: 5px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.cardContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

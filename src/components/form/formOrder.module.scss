@@ -1,0 +1,46 @@
+.orderFormTitle {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.orderForm {
+    width: 60%;
+    min-width: 260px;
+    margin: 0 auto;
+    background-color: bisque;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.orderFormLabel {
+    display: block;
+    color: brown;
+    margin: 10px;
+    text-align: center;
+}
+
+.orderFormInput {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 60%;
+    min-width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+.formError {
+    display: block;
+    color: red;
+    text-align: center;
+    font-size: 14px;
+}
+
+.btnGrpoup {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    justify-content: center;
+}

@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CardsGallery component with cards 1`] = `
+<section
+  class="cards"
+  data-testid="gallery"
+>
+  <div
+    class="card"
+    data-cards="true"
+    data-testid="card"
+    id="1"
+  >
+    <h2
+      class="text title"
+    />
+    <img
+      width="280"
+    />
+    <div
+      class="cardContent"
+    >
+      <div>
+        <p
+          class="text"
+        >
+          <span
+            class="prop"
+          >
+            Price:
+          </span>
+        </p>
+        <p
+          class="text"
+        >
+          <span
+            class="prop"
+          >
+            Articul:
+          </span>
+          1
+        </p>
+        <p
+          class="text"
+        >
+          <span
+            class="prop"
+          >
+            Color:
+          </span>
+        </p>
+      </div>
+      <div
+        class="actions"
+      >
+        <button
+          class="btn"
+          data-assignment="modalAddToCart"
+          style="background-color: brown; color: bisque;"
+        >
+          Add to Cart
+        </button>
+        <div
+          class="wrapStar"
+        >
+          <svg
+            height="28"
+            style="cursor: pointer;"
+            viewBox="0 0 51 48"
+            width="28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Five Pointed Star
+            </title>
+            <path
+              d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+              fill="bisque"
+              stroke=""
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="card"
+    data-cards="true"
+    data-testid="card"
+    id="2"
+  >
+    <h2
+      class="text title"
+    />
+    <img
+      width="280"
+    />
+    <div
+      class="cardContent"
+    >
+      <div>
+        <p
+          class="text"
+        >
+          <span
+            class="prop"
+          >
+            Price:
+          </span>
+        </p>
+        <p
+          class="text"
+        >
+          <span
+            class="prop"
+          >
+            Articul:
+          </span>
+          2
+        </p>
+        <p
+          class="text"
+        >
+          <span
+            class="prop"
+          >
+            Color:
+          </span>
+        </p>
+      </div>
+      <div
+        class="actions"
+      >
+        <button
+          class="btn"
+          data-assignment="modalAddToCart"
+          style="background-color: brown; color: bisque;"
+        >
+          Add to Cart
+        </button>
+        <div
+          class="wrapStar"
+        >
+          <svg
+            height="28"
+            style="cursor: pointer;"
+            viewBox="0 0 51 48"
+            width="28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Five Pointed Star
+            </title>
+            <path
+              d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+              fill="bisque"
+              stroke=""
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="card"
+    data-cards="true"
+    data-testid="card"
+    id="3"
+  >
+    <h2
+      class="text title"
+    />
+    <img
+      width="280"
+    />
+    <div
+      class="cardContent"
+    >
+      <div>
+        <p
+          class="text"
+        >
+          <span
+            class="prop"
+          >
+            Price:
+          </span>
+        </p>
+        <p
+          class="text"
+        >
+          <span
+            class="prop"
+          >
+            Articul:
+          </span>
+          3
+        </p>
+        <p
+          class="text"
+        >
+          <span
+            class="prop"
+          >
+            Color:
+          </span>
+        </p>
+      </div>
+      <div
+        class="actions"
+      >
+        <button
+          class="btn"
+          data-assignment="modalAddToCart"
+          style="background-color: brown; color: bisque;"
+        >
+          Add to Cart
+        </button>
+        <div
+          class="wrapStar"
+        >
+          <svg
+            height="28"
+            style="cursor: pointer;"
+            viewBox="0 0 51 48"
+            width="28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Five Pointed Star
+            </title>
+            <path
+              d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+              fill="bisque"
+              stroke=""
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
