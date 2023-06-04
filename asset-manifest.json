@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/onlineStore-HandMade/static/css/main.aaf1d5c8.css",
+    "main.js": "/onlineStore-HandMade/static/js/main.1519ce28.js",
+    "static/media/krasnoe-derevo-fon.jpg": "/onlineStore-HandMade/static/media/krasnoe-derevo-fon.29278e4b4a776a6697e5.jpg",
+    "index.html": "/onlineStore-HandMade/index.html",
+    "main.aaf1d5c8.css.map": "/onlineStore-HandMade/static/css/main.aaf1d5c8.css.map",
+    "main.1519ce28.js.map": "/onlineStore-HandMade/static/js/main.1519ce28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaf1d5c8.css",
+    "static/js/main.1519ce28.js"
+  ]
+}
