@@ -1,8 +1,6 @@
-# onlineStore-HandMade
+# React app - Online Store - privilege handmade
 
-React app - Online Store - privilege handmade
-
-project url:
+Project url:
 https://monumental-buttercream-9eb92c.netlify.app/
 
 Technologies:
