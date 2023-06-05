@@ -2,6 +2,9 @@
 
 React app - Online Store - privilege handmade
 
+project url:
+https://monumental-buttercream-9eb92c.netlify.app/
+
 Technologies:
 React - ReactRouterDom - Redux - Context API - Formic - Jest - module.scss
 
