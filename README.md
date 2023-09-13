@@ -1,12 +1,16 @@
 # React app - Online Store - privilege handmade
 
-Project url:
-https://monumental-buttercream-9eb92c.netlify.app/
+## Project url:
 
-Technologies:
+https://privilege-handmade.netlify.app/
+
+## Technologies:
+
 React - ReactRouterDom - Redux - Context API - Formic - Jest - module.scss
 
-Learn more about the development process and application functionality:
+## About
+
+##### Learn more about the development process and application functionality:
 
 -   React functional components, props, hooks, custom hooks.
 -   redux, redux-thunk; actions, middlewares, reducers.
@@ -22,5 +26,6 @@ Learn more about the development process and application functionality:
 -   switching the type of content display - gallery / table.
 -   tests.
 
-Describe:
+##### Describe:
+
 An online store where you can choose products by adding them to your favorites or shopping cart, as well as fill out an order form. The user can choose to display the content as a gallery or a table. The application has three pages Home, Favorites, Cart. There are counters in the header that display the current state - the number of selected products and the number of products in the cart. A pop-up modal window to confirm the user's action. There is an order form and validation of this form. The product can be removed both from the basket and from the favorites. All data about products in the shopping cart and favorites is stored in the local storage. In the form and in the basket, the total number of goods and the amount of the order are calculated.
