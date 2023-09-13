@@ -14,11 +14,16 @@ function TableContent(props) {
     return (
         <tr>
             <td className={s.tableCell}>{card.articul}</td>
-            <td className={s.tableCell}>{card.name}</td>
+            <td className={s.tableCell + " " + s.smHidden}>{card.name}</td>
             <td className={s.tableCell}>{card.price}</td>
-            <td className={s.tableCell}>{card.color}</td>
+            <td className={s.tableCell + " " + s.smHidden}>{card.color}</td>
             <td className={s.tableCell} style={{ margin: "0 auto" }}>
-                <img src={card.img} alt={card.name} width={80} style={{ maxWidth: "95%" }} />
+                <img
+                    src={card.img}
+                    alt={card.name}
+                    width={80}
+                    style={{ maxWidth: "95%" }}
+                />
             </td>
             {card.quantity && assignment === "removeFromCart" ? (
                 <td className={s.tableCell}>{card.quantity}</td>
@@ -27,15 +32,17 @@ function TableContent(props) {
                 <td className={s.tableCell}>{card.sum}</td>
             ) : null}
             <td className={s.tableCell + " " + s.btnGroup}>
-                <Star fill={isFavorite ? "gold" : "white"} onClick={toggleFavorite} />
+                <Star
+                    fill={isFavorite ? "gold" : "white"}
+                    onClick={toggleFavorite}
+                />
             </td>
             <td className={s.tableCell}>
                 <div
                     data-assignment={assignment}
                     onClick={(e) => {
                         checkModalContent(e, card, dispatch);
-                    }}
-                >
+                    }}>
                     {assignment === "modalAddToCart" ? (
                         <CartIcon fill={itemInCart ? "gold" : "white"} />
                     ) : (

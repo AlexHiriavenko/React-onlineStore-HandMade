@@ -27,3 +27,9 @@
     color: white;
     margin-bottom: 7px;
 }
+
+.smHidden {
+    @media (max-width: 460px) {
+        display: none;
+    }
+}
